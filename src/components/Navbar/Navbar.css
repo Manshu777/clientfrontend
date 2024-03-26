@@ -1,0 +1,212 @@
+/* Navbar.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: #fff;
+    padding: 15px 0 !important;
+    border-bottom: 1px solid #e0e0e0;
+
+
+}
+
+.navbar-brand img {
+    height: 30px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-link img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.nav-link span {
+    font-size: 16px;
+    color: black !important;
+}
+
+.menu-bar {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.side-main {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
+.side-one{
+    display: flex;
+}
+
+.side-one span {
+    background-color: white;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.side-one img {
+    margin-top: -3px;
+    margin-right: 3px;
+}
+
+
+.side-two {
+    padding: 0 20px;
+}
+
+.side-three a {
+    padding: 0;
+}
+
+.nav-li {
+    font-size: 16px;
+}
+
+.menu-bar .dropdown-menu {
+    border: none;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-bar .dropdown-item {
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-bar .dropdown-item:hover,
+.menu-bar .dropdown-item:focus {
+    background-color: #f8f9fa;
+}
+
+.menu-bar .dropdown-divider {
+    margin: 5px 0;
+    border-color: #e0e0e0;
+}
+
+.dropdown-menu.show {
+    margin: 15px -122px !important;
+
+}
+
+.nav-li {
+    font-size: 16px;
+    padding: 10px 25px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-li:hover,
+.nav-li:focus {
+    background-color: #f8f9fa;
+    /* Change background color on hover/focus */
+}
+
+.nav-li-divider {
+    margin: 5px 0;
+    border-color: #e0e0e0;
+}
+
+/* Add overflow hidden to hide overflow */
+.menu-bar .dropdown-menu {
+    overflow: hidden;
+}
+
+.call-btn {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.call-btn img {
+    width: 16px;
+    margin-right: 5px;
+}
+
+.nav-link-one {
+    color: black;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        box-shadow: none !important;
+    }
+
+    .navbar-nav {
+        margin-top: 5px;
+        /* margin-right: 16px;
+        transform: translateX(9px); */
+    }
+
+    .nav-link {
+        padding: 8px;
+    }
+
+    .navbar-toggler {
+        margin-right: 15px;
+    }
+
+    .navbar-brand img {
+        height: 30px;
+        padding-left: 10px;
+    }
+
+    .navbar {
+        padding: 5px 0 !important;
+    }
+
+    .navbar-toggler-icon {
+        width: 17px !important;
+        height: 27px !important;
+    }
+
+    div#basic-navbar-nav {
+        background: white;
+        height: 45px;
+        padding-bottom: 7px;
+        padding-top: 2px;
+    }
+}
+
+/* Add these styles to your Navbar.css */
+
+
+@media only screen and (max-width:767px) and (min-width:200px) {
+    .side-two {
+      padding: 0;
+      font-size: 16px;
+      font-weight: 400;
+  }
+  }

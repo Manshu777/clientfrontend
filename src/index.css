@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Jost' , sans-serif !important;
+
+}
+/* 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+/* styles.css */
+
+*{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+
+}
+
+.app-main p{
+  text-align: justify;
+
+}

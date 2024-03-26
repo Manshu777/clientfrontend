@@ -1,0 +1,202 @@
+/* Footer.css */
+
+.footer {
+  padding: 30px 0;
+  background-color: #f0f0f0;
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding: 30px 0px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(70, 70, 70, .239216);
+  border-bottom: 1px solid rgba(70, 70, 70, .239216);
+}
+
+.footer-content {
+  text-align: center;
+  border-right: 1px solid rgba(70, 70, 70, .239216);
+
+}
+
+.footer-contents {
+  text-align: center;
+
+}
+
+.footer-content h5 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+
+.footer-contents h5 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+
+.footer-content h6 {
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-contents h6 {
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 25px;
+
+}
+
+.footer-bottom h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-list li {
+  margin: 0 15px;
+}
+
+ul.footer-list a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+  margin-top: 20px;
+  /* Align items vertically */
+}
+
+.social-icons a {
+  color: black;
+  text-decoration: none;
+  width: 50px;
+  font-size: 20px;
+  transition: color 0.3s ease;
+  background-color: #e8e8e8;
+  border-radius: 100%;
+  padding: 8px 15px;
+  height: 50px;
+}
+
+.social-icons a:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  background: #f5f3f3;
+  /* Change color on hover */
+}
+
+.footer-company a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+.icon-container {
+  position: fixed;
+  bottom: 20px;
+  display: grid;
+  right: 15px;
+  z-index: 1000;
+}
+
+.icon-container .icon-image {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  animation: scale-fade 1s ease-in-out infinite;
+}
+
+.icon-container .icon-image-call {
+  width: 58px !important;
+  height: 58px !important;
+  margin: 0 -10px;
+}
+
+.icon-container .icon-image-whatsapp {
+  animation: scale-in 1s ease-in-out infinite;
+}
+
+.icon i {
+  font-size: 30px;
+}
+
+@keyframes scale-fade {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes scale-in {
+  0% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .icon-container {
+    bottom: 10px;
+    right: 15px;
+  }
+
+
+  .icon i {
+    font-size: 20px;
+  }
+}

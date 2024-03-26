@@ -1,0 +1,528 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-hero {
+  padding: 50px;
+  background-image: linear-gradient(180deg, #5d4990 490px, #f0f0f0 0) !important;
+}
+
+.hero-left h4 {
+  font-size: 32px;
+  color: white;
+
+}
+
+
+.hero-left p {
+  opacity: .8 !important;
+  color: white;
+
+}
+
+
+
+/* Slider.css */
+.slider-section {
+  overflow: hidden;
+}
+
+.slider-section .slick-slide {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  height: 55px;
+  margin: 0px 5px 0 0px;
+  width: 210px !important;
+
+
+}
+
+.slider-section .slick-slide img {
+  width: 40px;
+  padding: 2px;
+  height: 40px;
+  margin: 7px 0px 0px 5px;
+  background-color: rgba(242, 242, 242, 1);
+  border-radius: 5px;
+}
+
+.slider-section h3 {
+  margin-top: 10px;
+  font-size: 14px;
+  font-style: italic !important;
+  font-weight: 700;
+  color: #5d4990;
+
+}
+
+.slider-section p {
+  font-size: 11px;
+  margin-top: -5px;
+  color: #5d4990;
+
+}
+
+.slider-left {
+  display: flex;
+}
+
+.slider-right {
+  margin: 0px 0px 0px 7px;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: white !important;
+}
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 7px !important;
+  line-height: 20px;
+  position: absolute;
+  top: -50px !important;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  content: '•';
+  text-align: center;
+
+  color: white !important;
+}
+
+button.slick-arrow.slick-next {
+  display: none !important;
+}
+
+button.slick-arrow.slick-prev {
+  display: none !important;
+}
+
+.slider-container {
+  position: relative;
+}
+
+.slider-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 60px;
+  right: -15px;
+  bottom: 0;
+  width: 0px;
+  box-shadow: -16px 0 10px 10px #5d4990;
+}
+
+
+.outer-main-div {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px 35px;
+  margin-top: 15px;
+
+}
+
+.outer-div {
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.outer-main-div h4 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.outer-div h6 {
+  background: #ffe8c3;
+  font-size: 9px;
+  border: 1px solid #ffffff;
+  padding: 1px 12px;
+}
+
+.inner-div img {
+  width: 55px;
+  background-color: #F7F7F7;
+  border-radius: 50%;
+  padding: 3px;
+  margin-left: 12px;
+}
+
+
+/* Define hover effect */
+.inner-div:hover {
+  background-color: whitesmoke;
+}
+
+/* Define color for active item */
+.inner-div.active {
+  background-color: whitesmoke;
+}
+
+
+.inner-div p {
+  color: #4d4b4b;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 6px;
+  text-align: center;
+
+}
+
+
+.inner-work h6 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.inner-work p {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.inner-work-images h6 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.inner-work-images p {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.inner-work {
+  display: flex;
+  gap: 15px;
+
+}
+
+.inner-work-images {
+  display: flex;
+  gap: 15px;
+
+}
+
+.inner-work img {
+  background-color: #F7F7F8;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 5px;
+  /* object-fit: none; */
+  margin-bottom: 20px;
+
+}
+
+.inner-work-images img {
+  width: 40px;
+  margin-bottom: 20px;
+
+}
+
+.inner-images img {
+  width: 50%;
+  height: auto;
+  padding: 0px 5px;
+}
+
+
+
+
+
+.main-tables {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+th.text-light-grey {
+  color: #a9a9bc !important;
+  font-weight: 500;
+  border-left: 1px solid #ccc;
+  padding: 15px !important;
+
+}
+
+td.table-head {
+  padding: 15px !important;
+}
+
+.main-tables td,
+th {
+  border-left: 1px solid #ccc;
+}
+
+table.main-tables.table svg {
+  color: #099e09;
+  padding-top: 10px;
+}
+
+table.main-tables.table svg.svg-inline--fa.fa-xmark {
+  color: rgb(190, 182, 182) !important;
+}
+
+.hero-right {
+  position: sticky;
+  top: 110px;
+}
+
+.table-container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: ruby-text;
+  text-align: center;
+  background-color: #f7f7f8 !important;
+  padding: 10px !important;
+  border-radius: 6px !important;
+}
+
+.table-container table {
+  width: 85%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 3px 10px !important;
+  text-align: center;
+  border: 1px solid #dee2e6;
+  font-size: 12px !important;
+  background-color: #f7f7f8 !important;
+
+}
+
+.table-container td {
+  font-weight: 500 !important;
+  color: #7a7979 !important;
+
+}
+
+
+
+
+.table-container tfoot td {
+  font-size: 12px;
+}
+
+.video-main {
+  height: 250px;
+  border-radius: 10px !important;
+  background-size: cover;
+  background-position: center center;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.display-form {
+  display: none;
+}
+
+@media only screen and (max-width:767px) {
+  .display-form {
+    display: block;
+    margin: -35px 0px 30px;
+  }
+  .popup{
+    overflow: none;
+  }
+
+  .main-hero {
+    padding: 1px 0 0 0;
+  }
+
+  .outer-div {
+    display: flex;
+  }
+
+  .inner-div {
+    margin: 0 10px 0 5px;
+  }
+
+
+  form button {
+    padding: 10px 78px !important;
+  }
+
+  .footer-list {
+    display: block !important;
+    text-align: center;
+  }
+
+  .tabs button {
+    padding: 8px 21px;
+    font-size: 11px;
+  }
+
+  .navbar-left {
+    text-align: center;
+  }
+
+  .hero-left h4 {
+    margin-top: 20px;
+    font-size: 21px;
+  }
+
+  .hero-left p {
+    font-size: 14px;
+  }
+
+  .navbar-left img {
+    width: 150px;
+    margin-left: 0;
+    margin-top: 7px;
+  }
+
+  .slider-section h3 {
+    margin-top: 6px;
+  }
+
+
+  .slider-section .slick-slide img {
+    width: auto;
+    height: 35px;
+    margin: 5px 0px 0px 5px;
+  }
+
+  .slider-section .slick-slide {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0px 5px 0 0px;
+    height: 48px;
+    width: 201px !important;
+
+
+  }
+
+  .slider-section h3 {
+    font-size: 10px;
+  }
+
+
+
+  .video-main {
+    height: auto;
+    width: 100%;
+    margin-top: -10px;
+
+  }
+
+  .navbar-right {
+    display: flex;
+    padding: 10px 0 5px 0;
+    justify-content: space-between;
+  }
+
+  .navbar-right {
+    float: none;
+  }
+
+  .slider-section p {
+    font-size: 10px;
+
+  }
+
+
+  .outer-div h6 {
+    padding: 0px 5px;
+  }
+
+  .inner-div p {
+    font-size: 9px;
+    font-weight: 500;
+  }
+
+
+
+  .outer-main-div {
+    padding: 20px 15px;
+  }
+
+  td.table-head {
+    padding: 13px !important;
+    font-size: 13px;
+  }
+
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .table-container th,
+  .table-container td {
+    padding: 15px 0px !important;
+  }
+
+  .tabs-main {
+    padding: 15px 0 15px 12px;
+    text-align: left;
+  }
+
+  .tabs button {
+    padding: 10px 15px !important;
+  }
+
+  .inner-div img {
+    margin-left: 4px;
+  }
+
+  th.text-light-grey {
+    padding: 5px !important;
+  }
+
+  .hero-right {
+    margin-top: 20px;
+  }
+
+  .slider-container {
+    width: 400px;
+    margin: 1px -24px;
+}
+
+  .slider-container .slick-slider {
+    width: 100%;
+    /* Ensure the slider occupies the full width of its container */
+  }
+
+  .slider-container.slick-list {
+    margin: 0 -10px;
+    /* Adjust the negative margin to handle slider overflow */
+  }
+
+  .slider-containerck-slide {
+    padding: 0 10px;
+    /* Add padding to each slide for spacing */
+  }
+
+  /* Hero.css */
+  /* Your existing styles */
+
+  @media only screen and (max-width: 767px) {
+    .form-column {
+      order: 1;
+      width: 100%;
+      display: none;
+    }
+
+    .left-column {
+      order: 2;
+      width: 100%;
+
+
+      background-image: linear-gradient(180deg, #5d4990 490px, #f0f0f0 0) !important;
+
+    }
+  }
+
+}
+
